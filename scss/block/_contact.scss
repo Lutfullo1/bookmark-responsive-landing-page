@@ -1,0 +1,39 @@
+.contact{
+    text-align: center;
+    background-color: #DBDBDB;
+    padding: 88px 0;
+}
+
+.contact__container{
+    max-width: 877px;
+}
+
+.contact__title{
+    @include mainTitle;
+}
+
+.contact__text{
+    color: #828282;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-bottom: 40px;
+}
+
+.contact__btn{
+    width: 160px;
+    height: 56px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #828282;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
